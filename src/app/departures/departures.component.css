@@ -1,0 +1,138 @@
+.niceRow{
+  min-width: 100%;
+}
+
+.niceTab{
+  min-width: 80%;
+  margin-left: 10%;
+}
+
+
+h1 {
+  font-size: 5em;
+  color: red;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+
+.leftBlock {
+  display: inline-block;
+  font-size: large;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.midBlock {
+  display: inline-block;
+  font-size: large;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+
+}
+
+.rightBlock {
+  display: inline-block;
+  font-size: large;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+  border-radius: 0 4px 4px 0;
+}
+
+.hLeftBlock {
+  display: inline-block;
+  font-size: large;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.hMidBlock {
+  display: inline-block;
+  font-size: large;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+
+}
+
+.hRightBlock {
+  display: inline-block;
+  font-size: large;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 100%;
+  text-align: left;
+  margin-right: .8em;
+  border-radius: 0 4px 4px 0;
+}
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+nav a:visited, a:link {
+  color: #607d8b;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #039be5;
+}
+
+nav {
+  margin-bottom: 10%;
+}
+

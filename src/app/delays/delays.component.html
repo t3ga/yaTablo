@@ -1,0 +1,36 @@
+<table class="niceTab">
+  <tr class="niceRow">
+    <td>
+      <span class="hLeftBlock">Flight #</span>
+    </td>
+    <td>
+      <span class="hMidBlock">Time</span>
+    </td>
+    <td>
+      <span class="hMidBlock">Destination</span>
+    </td>
+    <td>
+      <span class="hMidBlock">Terminal</span>
+    </td>
+    <td>
+      <span class="hRightBlock">Status</span>
+    </td>
+  </tr>
+  <tr class="niceRow" *ngFor="let flight of flights">
+    <td>
+      <span class="leftBlock">{{flight.num}}</span>
+    </td>
+    <td>
+      <span class="midBlock">{{flight.time}}</span>
+    </td>
+    <td>
+      <span class="midBlock">{{flight.destination}}</span>
+    </td>
+    <td>
+      <span class="midBlock">{{flight.terminal}}</span>
+    </td>
+    <td>
+      <span class="rightBlock">{{flight.status}}</span>
+    </td>
+  </tr>
+</table>
